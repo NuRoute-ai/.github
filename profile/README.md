@@ -14,12 +14,12 @@ Every request goes through two separate stages, kept apart on purpose:
    your prompt
         |
         v
-  1. Tier prediction              "How capable does the
-     prompt -> small | medium | large    model need to be?"
+  1. Tier prediction              "How capable does the model need to be?"
+     prompt -> small | medium | large    
         |
         v
-  2. Model selection              "Given that floor, which
-     governance filter -> strategy -> winner   model wins under your policy?"
+  2. Model selection              "Given that floor, which model wins under your policy?"
+     governance filter -> strategy -> winner   
         |
         v
    provider call
