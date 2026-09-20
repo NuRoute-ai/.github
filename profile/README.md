@@ -104,8 +104,12 @@ response = client.chat.complete(
 |---|---|
 | [`sdk-python`](https://github.com/NuRoute-ai/sdk-python) | Official Python SDK |
 | [`sdk-js`](https://github.com/NuRoute-ai/sdk-js) | Official TypeScript / JavaScript SDK |
+| [`langchain-nuroute`](https://github.com/NuRoute-ai/langchain-nuroute) | LangChain chat model |
+| [`nuroute-mcp-server`](https://github.com/NuRoute-ai/nuroute-mcp-server) | MCP server, for Claude Desktop and other MCP clients |
 | [`n8n-nodes-nuroute`](https://github.com/NuRoute-ai/n8n-nodes-nuroute) | n8n community node |
 | [`dify-nuroute`](https://github.com/NuRoute-ai/dify-nuroute) | Dify model provider plugin |
+
+A Vercel AI SDK provider is in development.
 
 NuRoute also exposes an OpenAI-compatible `/v1/chat/completions` endpoint, so most existing OpenAI SDKs and tools work by pointing them at your gateway URL.
 
@@ -129,6 +133,10 @@ NuRoute also exposes an OpenAI-compatible `/v1/chat/completions` endpoint, so mo
 - Routing performance: [nuroute.ai/docs/concepts/routing-performance](https://nuroute.ai/docs/concepts/routing-performance)
 - Website: [nuroute.ai](https://nuroute.ai)
 - Support: [support@nuroute.ai](mailto:support@nuroute.ai)
+
+## Community
+
+Questions, ideas, or show-and-tell: [GitHub Discussions](https://github.com/NuRoute-ai/.github/discussions)
 
 ## Get involved
 
