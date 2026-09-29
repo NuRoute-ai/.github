@@ -6,6 +6,10 @@ Most teams building on LLMs are over-provisioned: they picked a frontier model o
 
 NuRoute's auto routing removes that trade-off. For every prompt it predicts the cheapest class of model that can still answer it well, and sends it there. Hard prompts still reach a frontier model. Easy ones stop costing like they do.
 
+- **Trained router, not rules.** 95.7% of Claude Sonnet's accuracy at 46% lower cost on MMLU-Pro, 1,219 questions. 58.8% cost saved at 95.3% quality retained on a held-out benchmark of 2,328 business prompts.
+- **23 providers, 64 models, one endpoint.** OpenAI compatible, so switching is a base URL change.
+- **Your keys, your control.** Bring your own provider keys, pin a model, exclude providers, restrict regions, and inspect the routing decision on every call.
+
 ## How a routing decision gets made
 
 Every request goes through two separate stages, kept apart on purpose:
